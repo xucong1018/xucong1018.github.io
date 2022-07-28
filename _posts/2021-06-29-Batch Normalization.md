@@ -16,7 +16,7 @@ tags:
 
 [#深入理解# BN LN IN GN几种标准化的区别](https://zhuanlan.zhihu.com/p/354837787)
 
-## BN&LN****区别****
+## BN&LN **区别**
 
 **BN的主要思想是：针对一个batch里面的数据进行规范化，在一个batch里的同一个特征通道上进行标准化。**
 
