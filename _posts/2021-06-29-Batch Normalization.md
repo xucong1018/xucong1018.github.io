@@ -22,7 +22,7 @@ tags:
 
 **LN的主要思想是：是对每一个样本的所有特征做归一化，而不是 BN 那种在批方向计算均值和方差。**
 
-![Untitled](Batch%20Normalization%200701a49ac7b64cb0a1fee5b14956189e/Untitled.png)
+![Untitled](https://github.com/xucong1018/xucong1018.github.io/blob/master/img/Batch Normalization/Untitled.png?raw=true)
 
 # BN
 
@@ -38,7 +38,7 @@ tags:
 
 Batch Normalization (BN) 通常被添加在每一个全连接和激励函数之间，使数据在进入激活函数之前**集中分布在0值附近**，大部分激活函数输入在0周围时输出会有加大变化，下图能够很好的解释这个问题：
 
-![Untitled](Batch%20Normalization%200701a49ac7b64cb0a1fee5b14956189e/Untitled%201.png)
+![Untitled](https://github.com/xucong1018/xucong1018.github.io/blob/master/img/Batch Normalization/Untitled%201.png?raw=true)
 
 - **梯度爆炸：**在方向传播的过程中，每一层的梯度都是由上一层的梯度乘以本层的数据得到。如果标准化的话，**数据均值都在0附近**，很显然，每一层的梯度不会产生爆炸的情况。
 
